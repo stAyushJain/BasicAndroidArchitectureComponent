@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ayush.practice.basicsandroidarchitecturecomponent">
+
+    <application
+        android:name=".application.UserApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".gui.profileList.ProfileListActvity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".gui.userProfile.UserProfileActivity" />
+        <activity android:name=".gui.AddUsers.AddUserActivity" />
+        <activity android:name=".mainActivity.MainActivity"></activity>
+    </application>
+
+</manifest>

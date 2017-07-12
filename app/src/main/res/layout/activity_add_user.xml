@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#595858">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="ALL FIELDS ARE MANDATORY"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="User Name"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserNumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="Contact Number"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserEmail"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="Email"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserFaceBook"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="FaceBook Id"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserTwitter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="Twitter Id"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <EditText
+                android:id="@+id/editTextUserLinkedin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/cardview_dark_background"
+                android:hint="Linkedin Id"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/saveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+    </LinearLayout>
+</ScrollView>
+
